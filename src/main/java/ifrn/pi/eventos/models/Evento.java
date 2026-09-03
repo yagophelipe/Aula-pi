@@ -10,7 +10,7 @@ public class Evento {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	private String nome;
 	private String local;
 	private String data;
@@ -20,7 +20,7 @@ public class Evento {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
