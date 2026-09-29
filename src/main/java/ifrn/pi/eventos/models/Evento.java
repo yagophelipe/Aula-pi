@@ -16,7 +16,7 @@ public class Evento {
 	private String data;
 	private String horario;
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
